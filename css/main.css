@@ -1,7 +1,10 @@
 body {
     margin: 60px auto;
     width: 70%;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica', 'Arial', 'Sans-Serif'; 
+}
+nav{
+    text-align: right;
 }
 nav ul, footer ul {
     padding: 0px;
@@ -14,7 +17,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #696969;
 }
 a:hover {
     text-decoration: underline;
@@ -34,6 +37,7 @@ footer {
     clear: both; 
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    text-align: center;
 }
 #FountainPhoto {
     width: 20%; 
