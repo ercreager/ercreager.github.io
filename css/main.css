@@ -22,7 +22,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
+#welcome-header {
     font-size: 3em;
 }
 h2 {
@@ -38,6 +38,10 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     text-align: center;
+}
+ul.posts {
+	markin: 20px auto 40px; 
+	font-size: 1.5em; 
 }
 #FountainPhoto {
     width: 20%; 
