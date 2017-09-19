@@ -8,8 +8,8 @@ html, body {
 #footer {
     clear: both; 
     border-top: 1px solid #d5d5d5;
-    font-size: 0.8em; 
-    text-align: center;
+    font-size: 1em; 
+
     height: 9vh;   /* Height of the footer */
 }
 nav{
@@ -20,9 +20,23 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-right: 20px;
+}
+footer ul li{
+    display: inline;
+    text-align: left;
+}
+footer{
+    margin-left: 28%; 
+    margin-right: 28%; 
+}
+footer img {
+    margin-right: 10%; 
+}
+#footer-image-right{
+    margin-right: 0; 
 }
 a {
     text-decoration: none;
