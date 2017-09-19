@@ -42,10 +42,12 @@ p, ul li {
     line-height: 1.4em;
     color: #333;
 }
+/*
 ul.posts {
     markin: 20px auto 40px; 
     font-size: 1.5em; 
 }
+*/
 #FountainPhoto {
     width: 20%; 
     padding: 2%; 
