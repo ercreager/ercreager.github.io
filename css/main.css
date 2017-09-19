@@ -28,7 +28,7 @@ a:hover {
 h2 {
     border-bottom: 1px solid #333;
 }
-p, p ul li {
+p, ul li {
     font-size: 1.1em;
     line-height: 1.4em;
     color: #333;
