@@ -6,8 +6,8 @@
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
-		<body>
-			<nav>
+		<body><div id="body">
+			<div id=header"><nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 	        		<li><a href="/experience">Experience</a></li>
@@ -15,20 +15,22 @@
 		        	<li><a href="/blog">Blog</a></li>
 				<li><a href="/contact">Contact</a></li>
 	    		</ul>
-			</nav>
+			</nav></div><!--End header div -->
 			<div class="content">
 			
 			{{ content }}
 			
-			</div><!-- /.container -->
-			<footer>
+			</div><!-- End content div -->
+</div><!-- End body div --> 
+			<div id="footer"><footer>
 	    		<ul>
 	        		<li><a href="mailto:emilyrcreager@gmail.com">EmilyRCreager@gmail.com</a></li>
 	        		
 				<li><a href="https://linkedin.com/in/emilyrcreager">linkedin.com/EmilyRCreager</a></li>
 				<li><a href="https://github.com/ercreager">github.com/ERCreager</a></li>
 				</ul>
-			</footer>
-		</body>
+			</div><!-- End footer div-->
+</footer>
 
+		</body>
 	</html>

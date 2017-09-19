@@ -1,7 +1,16 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+html, body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif'; 
+}
+#body{
+    margin: 5vh 15vh 0vh 15vh; 
+    min-height: calc(100vh - 16vh); 
+}
+#footer {
+    clear: both; 
+    border-top: 1px solid #d5d5d5;
+    font-size: 0.8em; 
+    text-align: center;
+    height: 9vh;   /* Height of the footer */
 }
 nav{
     text-align: right;
@@ -33,15 +42,9 @@ p, ul li {
     line-height: 1.4em;
     color: #333;
 }
-footer {
-    clear: both; 
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-    text-align: center;
-}
 ul.posts {
-	markin: 20px auto 40px; 
-	font-size: 1.5em; 
+    markin: 20px auto 40px; 
+    font-size: 1.5em; 
 }
 #FountainPhoto {
     width: 20%; 
