@@ -53,4 +53,8 @@ ul.posts {
     padding: 2%; 
     float: left; 
 }
+.social-media-icon {
+    float: left; 
+    padding-right: 2%; 
+}
 
