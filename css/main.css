@@ -1,14 +1,14 @@
 html, body {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif'; 
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 #body{
-    margin: 5vh 15vh 0vh 15vh; 
-    min-height: calc(100vh - 16vh); 
+    margin: 5vh 15vh 0vh 15vh;
+    min-height: calc(100vh - 16vh);
 }
 #footer {
-    clear: both; 
+    clear: both;
     border-top: 1px solid #d5d5d5;
-    font-size: 1em; 
+    font-size: 1em;
 
     height: 9vh;   /* Height of the footer */
 }
@@ -29,14 +29,10 @@ footer ul li{
     text-align: left;
 }
 footer{
-    margin-left: 28%; 
-    margin-right: 28%; 
+    margin-left: 26%;
 }
 footer img {
-    margin-right: 10%; 
-}
-#footer-image-right{
-    margin-right: 0; 
+    margin-right: 10%;
 }
 a {
     text-decoration: none;
@@ -58,17 +54,16 @@ p, ul li {
 }
 /*
 ul.posts {
-    markin: 20px auto 40px; 
-    font-size: 1.5em; 
+    markin: 20px auto 40px;
+    font-size: 1.5em;
 }
 */
 #FountainPhoto {
-    width: 30%; 
-    padding: 2%; 
-    float: left; 
+    width: 30%;
+    padding: 2%;
+    float: left;
 }
 .social-media-icon {
-    float: left; 
-    padding-right: 2%; 
+    float: left;
+    padding-right: 2%;
 }
-
