@@ -1,15 +1,15 @@
 html, body {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif'; 
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 #body{
-    margin: 5vh 15vh 0vh 15vh; 
-    min-height: calc(100vh - 16vh); 
+    margin: 5vh 15vh 0vh 15vh;
+    min-height: calc(100vh - 16vh);
 }
 #footer {
-    clear: both; 
+    clear: both;
     border-top: 1px solid #d5d5d5;
-    font-size: 0.8em; 
-    text-align: center;
+    font-size: 1em;
+
     height: 9vh;   /* Height of the footer */
 }
 nav{
@@ -20,9 +20,19 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-right: 20px;
+}
+footer ul li{
+    display: inline;
+    text-align: left;
+}
+footer{
+    margin-left: 26%;
+}
+footer img {
+    margin-right: 10%;
 }
 a {
     text-decoration: none;
@@ -44,17 +54,16 @@ p, ul li {
 }
 /*
 ul.posts {
-    markin: 20px auto 40px; 
-    font-size: 1.5em; 
+    markin: 20px auto 40px;
+    font-size: 1.5em;
 }
 */
 #FountainPhoto {
-    width: 30%; 
-    padding: 2%; 
-    float: left; 
+    width: 30%;
+    padding: 2%;
+    float: left;
 }
 .social-media-icon {
-    float: left; 
-    padding-right: 2%; 
+    float: left;
+    padding-right: 2%;
 }
-
