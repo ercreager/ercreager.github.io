@@ -8,48 +8,48 @@ var sketchProc = function(processingInstance) {
         var ctx = canvas.getContext("2d");
 
         var LeafImage = new Image();
-        LeafImage.src = "/assets/Leaf-green.png";
+        LeafImage.src = "images/Leaf-green.png";
 //        document.body.appendChild(LeafImage);
 
         var LeafersSeedImage = new Image();
-        LeafersSeedImage.src = "/assets/Leafers-seed.png";
+        LeafersSeedImage.src = "images/Leafers-seed.png";
 //        document.body.appendChild(LeafersSeedImage);
 
         var LeafersSeedlingImage = new Image();
-        LeafersSeedlingImage.src = "/assets/Leafers-seedling.png";
+        LeafersSeedlingImage.src = "images/Leafers-seedling.png";
 //        document.body.appendChild(LeafersSeedlingImage);
 
         var LeafersSaplingImage = new Image();
-        LeafersSaplingImage.src = "/assets/Leafers-sapling.png";
+        LeafersSaplingImage.src = "images/Leafers-sapling.png";
 //        document.body.appendChild(LeafersSaplingImage);
 
         var LeafersTreeImage = new Image();
-        LeafersTreeImage.src = "/assets/Leafers-tree.png";
+        LeafersTreeImage.src = "images/Leafers-tree.png";
 //        document.body.appendChild(LeafersTreeImage);
 
         var LeafersUltimateImage = new Image();
-        LeafersUltimateImage.src = "/assets/Leafers-ultimate.png";
+        LeafersUltimateImage.src = "images/Leafers-ultimate.png";
 //        document.body.appendChild(LeafersUltimateImage);
 
 
         var AqualineSeedImage = new Image();
-        AqualineSeedImage.src = "/assets/Aqualine-seed.png";
+        AqualineSeedImage.src = "images/Aqualine-seed.png";
 //         document.body.appendChild(AqualineSeedImage);
 
         var AqualineSeedlingImage = new Image();
-        AqualineSeedlingImage.src = "/assets/Aqualine-seedling.svg";
+        AqualineSeedlingImage.src = "images/Aqualine-seedling.svg";
 //          document.body.appendChild(AqualineSeedlingImage);
 
         var AqualineSaplingImage = new Image();
-        AqualineSaplingImage.src = "/assets/Aqualine-sapling.svg";
+        AqualineSaplingImage.src = "images/Aqualine-sapling.svg";
 //           document.body.appendChild(AqualineSaplingImage);
 
         var AqualineTreeImage = new Image();
-        AqualineTreeImage.src = "/assets/Aqualine-tree.png";
+        AqualineTreeImage.src = "images/Aqualine-tree.png";
 //           document.body.appendChild(AqualineTreeImage);
 
         var AqualineUltimateImage = new Image();
-        AqualineUltimateImage.src = "/assets/Aqualine-ultimate.png";
+        AqualineUltimateImage.src = "images/Aqualine-ultimate.png";
 //           document.body.appendChild(AqualineUltimateImage);
 
         var Tile = function(x, y, face) {

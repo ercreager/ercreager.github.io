@@ -8,13 +8,13 @@ var sketchProc = function(processingInstance) {
         var ctx = canvas.getContext("2d");
 
         var HopperHappy = new Image();
-        HopperHappy.src = "../assets/Hopper-Happy.png";
+        HopperHappy.src = "Hopper-Happy.png";
 
         var HopperJumping = new Image();
-        HopperJumping.src = "../assets/Hopper-Jumping.png";
+        HopperJumping.src = "Hopper-Jumping.png";
 
         var GrassBlock = new Image();
-        GrassBlock.src = "../assets/GrassBlock.png";
+        GrassBlock.src = "GrassBlock.png";
 
         var Beaver = function(x, y) {
             this.x = x;
