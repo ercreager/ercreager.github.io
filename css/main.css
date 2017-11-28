@@ -27,7 +27,7 @@ nav ul li {
 }
 nav ul li a {
     color: #000000;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 footer ul li{
@@ -53,6 +53,10 @@ a:hover {
 }
 h2 {
     border-bottom: 1px solid #333;
+}
+h1 {
+  padding-top: 1em;
+  padding-bottom: .5em; 
 }
 p, ul li {
     font-size: 1.1em;
