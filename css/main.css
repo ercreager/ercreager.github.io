@@ -23,7 +23,13 @@ nav ul, footer ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+
 }
+nav ul li a {
+    color: #000000;
+    text-decoration: none; 
+}
+
 footer ul li{
     display: inline;
     text-align: left;
@@ -34,9 +40,10 @@ footer{
 footer img {
     margin-right: 10%;
 }
-a {
+.content a {
     text-decoration: none;
-    color: #696969;
+/*    color: #696969; */
+      color: #447b1b;
 }
 a:hover {
     text-decoration: underline;
