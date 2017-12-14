@@ -8,6 +8,7 @@ html, body {
 #footer {
     clear: both;
     border-top: 1px solid #d5d5d5;
+    margin-top: 3em; 
     font-size: 1em;
     height: 9vh;   /* Height of the footer */
 }
@@ -35,23 +36,34 @@ footer ul li{
 }
 footer{
     margin-left: 26%;
+    padding-top: 1vh;
 }
 footer img {
     margin-right: 10%;
 }
 .content a {
-    text-decoration: none;
+    text-decoration: underline;
 /*    color: #696969; */
       color: #447b1b;
 }
+/*
 a:hover {
     text-decoration: underline;
-}
+}*/
 #welcome-header {
     font-size: 3em;
 }
+.post-image{
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
 h2 {
     border-bottom: 1px solid #333;
+}
+.h2-post{
+    border-bottom: 0px;
 }
 h1 {
   padding-top: 1em;
