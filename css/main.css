@@ -1,10 +1,3 @@
-/*
-@media only screen and (max-width : 480px) {
-  body{
-  background-color: blue;
-  }
-}
-*/
 html, body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -30,13 +23,14 @@ nav ul, footer ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-
 }
 nav ul li a {
     color: #000000;
     text-decoration: none;
 }
-
+footer img {
+  margin-right: 0;
+}
 footer ul li{
     display: inline;
     text-align: left;
@@ -95,4 +89,34 @@ ul.posts {
 .social-media-icon {
     float: left;
     padding-right: 2%;
+}
+
+
+@media only screen and (max-width : 480px) {
+  #homepagePhoto {
+    float: none;
+    width: 80%;
+    margin-left: 9%;
+  }
+  #body{
+      margin: 5vh 0.5vh 0vh 0.5vh;
+    }
+    #footer{
+        width: 98%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        display: flex;
+        justify-content: space-between;
+
+      }
+      footer{
+        margin: 0 auto 0 auto;
+        margin-left: 2vh;
+        padding: 0 0 0 0;
+        width: 100%;
+      }
+      .social-media-icon {
+        padding-right: 0;
+      }
+
 }
